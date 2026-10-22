@@ -7,39 +7,22 @@ export const waLink = (message = "Hello Space Apparel, I'd like to discuss a cus
 
 export const services = [
   {
-    number: "01", title: "3D Puff Printing",
-    text: "Add depth and texture to your designs with bold, raised prints that give custom apparel and accessories a premium, tactile finish.",
-    image: "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=900&q=85"
+    number: "01", title: "DTG Printing & Screen Printing",
+    text: "Custom T-shirt printing with vibrant artwork, detailed graphics, and bold screen-printed designs for streetwear and brand collections.",
+    image: "/images/services/dtg-main.jpg",
+    gallery: ["/images/services/dtg-main.jpg", "/images/services/dtg-colors.jpg", "/images/services/dtg-colors-detail.jpg", "/images/services/dtg-back-print.jpg", "/images/services/dtg-main-alt.jpg"]
   },
   {
     number: "02", title: "Embroidery",
-    text: "Precise, detailed logos and artwork for polos, caps, jackets, hoodies, and more—with a clean, crafted finish.",
-    image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=900&q=85"
+    text: "Detailed embroidered logos, patches, lettering, and decorative stitching for hoodies and other custom apparel.",
+    image: "/images/services/embroidery-main.jpg",
+    gallery: ["/images/services/embroidery-main.jpg", "/images/services/embroidery-patches.jpg", "/images/services/embroidery-hoodie.jpg", "/images/services/embroidery-sleeve.jpg", "/images/services/embroidery-detail.jpg"]
   },
   {
-    number: "03", title: "Heat Press",
-    text: "Vinyl and sticker application with sharp edges, strong adhesion, and vibrant results across a wide range of fabrics.",
-    image: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85"
-  },
-  {
-    number: "04", title: "Rhinestones",
-    text: "Eye-catching custom stonework with considered placement, adding sparkle and personality to fashion and streetwear.",
-    image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85"
-  },
-  {
-    number: "05", title: "Distressed Denim Patch",
-    text: "Custom patches that add character and a worn-in edge to denim jackets, jeans, and other statement pieces.",
-    image: "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=900&q=85"
-  },
-  {
-    number: "06", title: "DTG Printing",
-    text: "Detailed, full-colour designs with a soft feel—well suited to complex artwork, small batches, and on-demand apparel.",
-    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=85"
-  },
-  {
-    number: "07", title: "Screen Printing",
-    text: "Bold, durable, cost-conscious prints for bulk orders, produced with an emphasis on clean and consistent results.",
-    image: "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=900&q=85"
+    number: "03", title: "Denim",
+    text: "Custom denim pieces featuring distressed finishes, statement graphics, and embellished details across shorts and jeans.",
+    image: "/images/services/denim-main.jpg",
+    gallery: ["/images/services/denim-main.jpg", "/images/services/denim-shorts.jpg", "/images/services/denim-jeans.jpg", "/images/services/denim-embellished.jpg"]
   }
 ];
 

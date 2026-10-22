@@ -25,11 +25,9 @@ export default function Navbar() {
   return (
     <header className={`site-header ${scrolled || open ? "is-scrolled" : ""}`}>
       <div className="nav-shell">
-       
-
-<Link to="/" className="brand-mark" aria-label="Space Apparel home">
+        <Link to="/" className="brand-mark" aria-label="Space Apparel home">
   <img
-    src="/logo.png"
+    src="/logo.jpeg"
     alt="Space Apparel Logo"
     className="brand-logo"
   />
@@ -39,8 +37,6 @@ export default function Navbar() {
     <small>BUILT FOR YOUR BRAND</small>
   </span>
 </Link>
-
-
         <nav className="desktop-nav" aria-label="Main navigation">
           <NavLink to="/" end>Home</NavLink>
           <NavLink to="/about">About</NavLink>
