@@ -23,10 +23,16 @@ export default function Footer() {
           <a className="footer-wa" href={waLink()} target="_blank" rel="noreferrer">WhatsApp us <ArrowUpRight size={16} /></a>
         </div>
       </div>
-      <div className="container footer-bottom">
-        <span>© {new Date().getFullYear()} Space Apparel. All rights reserved.</span>
-        <span>DESIGNED TO MAKE AN IMPACT <span className="lime-dot">●</span></span>
-      </div>
+     <div className="container footer-bottom">
+  <span>
+    © {new Date().getFullYear()} Space Apparel. All rights reserved.
+  </span>
+
+  <span className="footer-credit">
+    DESIGNED BY EPIC SOLUTIONS
+    <span className="lime-dot">●</span>
+  </span>
+</div>
     </footer>
   );
 }
